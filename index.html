@@ -46,110 +46,143 @@
 
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css"> -->
     <!-- <script src="main.js"></script> -->
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 </head>
 
 <body>
     <div id="ghost-page">
-        <a href="#" class="" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-            aria-controls="navbar"><i></i>
-        </a>
+        <div class="container-wrap">
 
-        <aside id="ghost-aside">
-            <div id="ghost-author-short-bio" class="">
-                <div class="author-img" style="background-image: url(images/about.jpg);"></div>
-                <h1 id="ghost-logo"><a href="index.html">Sandeep Maity</a></h1>
-                <span class="position"><a href="#">Software Consultant</a> from India</span>
-            </div>
+            <a href="#" class="" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                aria-controls="navbar"><i></i>
+            </a>
 
-            <nav id="ghost-main-menu" role="navigation" class="navbar">
-                <div id="ghost-navbar" class="collapse">
+            <aside id="ghost-aside">
+                <div id="ghost-author-short-bio" class="">
+                    <div class="author-img" style="background-image: url(images/about.jpg);"></div>
+                    <h1 id="ghost-logo"><a href="index.html">Sandeep Maity</a></h1>
+                    <span class="position"><a href="#">Software Consultant</a> from India</span>
+                </div>
+
+                <nav id="ghost-main-menu" role="navigation" class="navbar">
+                    <div id="ghost-navbar" class="collapse">
+                        <ul>
+                            <li class="active"><a href="#" data-nav-section="home">Home</a></li>
+                            <li><a href="#" data-nav-section="about">About Me</a></li>
+                            <li><a href="#" data-nav-section="skills">Skills</a></li>
+                            <li><a href="#" data-nav-section="education">Education</a></li>
+                            <li><a href="#" data-nav-section="certifications">Certifications</a></li>
+                            <li><a href="#" data-nav-section="experience">Experience</a></li>
+                            <li><a href="#" data-nav-section="services">Services</a></li>
+                            <li><a href="#" data-nav-section="work">Work / Projects</a></li>
+                            <li><a href="#" data-nav-section="blogs">Blogs</a></li>
+                            <li><a href="#" data-nav-section="contact">Contact</a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+
+                <div id="ghost-footer">
+                    <p><small>
+                            &copy;
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script>
+                            All rights reserved | Made <i class="icon-heart" aria-hidden="true"></i> by <a href="#"
+                                target="_blank">Love</a>
+                        </small>
+                    </p>
+
                     <ul>
-                        <li class="active"><a href="#" data-nav-section="home">Home</a></li>
-                        <li><a href="#" data-nav-section="about">About Me</a></li>
-                        <li><a href="#" data-nav-section="skills">Skills</a></li>
-                        <li><a href="#" data-nav-section="education">Education</a></li>
-                        <li><a href="#" data-nav-section="certifications">Certifications</a></li>
-                        <li><a href="#" data-nav-section="experience">Experience</a></li>
-                        <li><a href="#" data-nav-section="services">Services</a></li>
-                        <li><a href="#" data-nav-section="work">Work / Projects</a></li>
-                        <li><a href="#" data-nav-section="blogs">Blogs</a></li>
-                        <li><a href="#" data-nav-section="contact">Contact</a></li>
-
+                        <!-- <li><a href="#"><i class="icon-facebook2"></i></a></li> -->
+                        <!-- Twitter, github, facebook, linkedin, google+, myblog(ghost, wordpress logo) -->
                     </ul>
                 </div>
-            </nav>
+            </aside>
 
-            <div id="ghost-footer">
-                <p><small>
-                        &copy;
-                        Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script>
-                        All rights reserved | Made <i class="icon-heart" aria-hidden="true"></i> by <a href="#"
-                            target="_blank">Love</a>
-                    </small>
-                </p>
-
-                <ul>
-                    <!-- <li><a href="#"><i class="icon-facebook2"></i></a></li> -->
-                    <!-- Twitter, github, facebook, linkedin, google+, myblog(ghost, wordpress logo) -->
-                </ul>
-            </div>
-        </aside>
-
-        <div id="ghost-main">
-            <section id="ghost-hero" class="ghost-fullheight" data-section="home">
-                <div class="flexslider ghost-fullheight">
-                    <ul class="slides">
-                        <li style="background-image: url(images/img_bg_1.jpg);">
-                            <div class="overlay"></div>
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div
-                                        class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 ghost-fullheight slider-text">
-                                        <div class="slider-text-inner ghost-fullheight ">
-                                            <div class="desc">
-                                                <h1>Hi! <br />I'm Sandeep</h1>
-                                                <h2>Secondary text will be here</h2>
+            <div id="ghost-main">
+                <section id="ghost-hero" class="ghost-fullheight" data-section="home">
+                    <div class="flexslider ghost-fullheight">
+                        <ul class="slides">
+                            <li style="background-image: url(images/img_bg_1.jpg);">
+                                <div class="overlay"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div
+                                            class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 ghost-fullheight slider-text">
+                                            <div class="slider-text-inner ghost-fullheight ">
+                                                <div class="desc">
+                                                    <h1>Hi! <br />I'm Sandeep</h1>
+                                                    <h2>Secondary text will be here</h2>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
+                            </li>
 
-                        <li style="background-image: url(images/img_bg_2.jpg);">
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="ghost-about" data-section="about">
-            </section>
+                            <li style="background-image: url(images/img_bg_2.jpg);">
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="ghost-about" data-section="about">
+                </section>
 
-            <section class="ghost-skills" data-section="skills">
-            </section>
+                <section class="ghost-skills" data-section="skills">
+                </section>
 
-            <section class="ghost-education" data-section="education">
-            </section>
+                <section class="ghost-education" data-section="education">
+                </section>
 
-            <section class="ghost-certification" data-section="certifications">
-            </section>
+                <section class="ghost-certification" data-section="certifications">
+                </section>
 
-            <section class="ghost-experience" data-section="experience">
-            </section>
+                <section class="ghost-experience" data-section="experience">
+                </section>
 
-            <section class="ghost-services" data-section="services">
-            </section>
+                <section class="ghost-services" data-section="services">
+                </section>
 
-            <section class="ghost-work" data-section="work">
-            </section>
+                <section class="ghost-work" data-section="work">
+                </section>
 
-            <section class="ghost-blogs" data-section="blogs">
-            </section>
+                <section class="ghost-blogs" data-section="blogs">
+                </section>
 
-            <section class="ghost-contact" data-section="contact">
-            </section>
+                <section class="ghost-contact" data-section="contact">
+                </section>
+            </div>
         </div>
+
     </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Counters -->
+    <script src="js/jquery.countTo.js"></script>
+
+
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+
 </body>
+
+
 
 </html>
