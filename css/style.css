@@ -3,3 +3,7 @@
     overflow: hidden;
     position: relative;
 }
+
+.container-wrap {
+    margin: 0 auto;
+}
